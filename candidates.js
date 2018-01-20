@@ -1,0 +1,1 @@
+module.exports = ['FCBayern', 'TicketMaster', 'TourAgent1']
