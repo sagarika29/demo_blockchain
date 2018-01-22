@@ -3,18 +3,12 @@
 
 ### Installation and Usage
 
-Clone repository and run
-```
-npm install
-```
-Then launch the testpc server with
-```
-npm run ganache
-```
-and from a separate shell
-```
-npm start
-```
-Then point your browser to `http://localhost:3000` for the web version of the voting app.
+To setup:
+1. install `npm` if you don't already have it https://nodejs.org/en/ 
+2. run `npm install`
 
-The `server.js` file includes the Ticketing setup and deployment. 
+To start, first run testRPC server, then run app server.
+
+1. run `npm run testRPC`
+2. run `npm start`
+3. navigate to localhost:3000 
