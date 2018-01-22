@@ -11,9 +11,9 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "node server.js",
-    "test": "node_modules/.bin/ganache-cli"
-  },
+    "test": "node_modules/.bin/ganache-cli",
+    "start": "node server.js"
+   },
   "author": "",
   "license": "ISC"
 }
