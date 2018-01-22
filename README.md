@@ -9,6 +9,6 @@ To setup:
 
 To start, first run testRPC server, then run app server.
 
-1. run `node_modules/.bin/ganache-cli`
+1. run `npm test`
 2. run `npm start`
 3. navigate to localhost:3000 
