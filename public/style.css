@@ -1,0 +1,109 @@
+header .header{
+    width: 100%;
+	max-width: none;
+	background: #961432;
+    font-family: 'expressway';
+    border: none;
+    position: relative;
+    padding: 5px;  
+    margin-bottom: -21px;
+    
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    color: white;
+      position: relative;
+	font-family: "Arial";
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table.columns-container{
+	display: table-cell;
+    height: 100%;
+    width:600px;
+    text-align: top;
+}
+
+td, th {
+	vertical-align: middle;
+    /*border: 1px solid #dddddd;*/
+    text-align: center;
+    padding: 8px;
+}
+
+.img-valign {
+  display: inline;
+  margin-bottom: 0.75em;
+}
+
+.img-valign2 {
+  display: inline;
+  margin-bottom: 0.75em;
+}
+
+.text1 {
+  font-size: 12px;
+}
+.totalDisplay{
+  width: 80%;
+  margin: 1%;
+}
+.overlay {
+    height: 100%;
+    width: 100%;
+    display: none;
+    position: absolute;
+    z-index: 1;
+    top: 30%;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+}
+
+.overlay-content {
+    position: fixed;
+    top: 10%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
